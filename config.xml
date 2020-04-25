@@ -76,10 +76,10 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    
-    
-    
-    <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
+    <gap:plugin name="org.apache.cordova.camera"  source="npm" />
+    <gap:plugin name="org.apache.cordova.media-capture" source="npm" />
+    <gap:plugin name="org.apache.cordova.console" source="npm" />
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8" source="npm" />
     <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="org.apache.cordova.file-transfer" />
     <gap:plugin name="org.apache.cordova.globalization" />
